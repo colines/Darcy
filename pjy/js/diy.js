@@ -5,4 +5,7 @@ $(function(){
         'navigationColor':['#fff'],
 
     });
+    setTimeout(function(){
+        $('#xq-img').css({"display":"block"});
+    },15000)
 });

@@ -1,16 +1,16 @@
 #fp-nav ul li a.active span,
 .fp-slidesNav ul li a.active span {
-    background: #fff;
+    background: #B9DFE9;
 }
 #fp-nav ul li a span,
 .fp-slidesNav ul li a span {
-    border-color:#fff;
+    border-color:#B9DFE9;
 }
 
 .bgcolor {
-	background: #79a8ae;
-    background: -webkit-linear-gradient(top left, #79a8ae 0%, #79a8ae 100%);
-    background: linear-gradient(to bottom right, #79a8ae 0%, #79a8ae 100%);
+		background: #FFE6FA;
+    background: -webkit-linear-gradient(top left, #FFE6FA 0%, #FFE6FA 100%);
+    background: linear-gradient(to bottom right, #FFE6FA 0%, #FFE6FA 100%);
     opacity: 0.9;
 }
 .bg-bubbles {
@@ -460,27 +460,28 @@
 	font-size: 30px;
 	font-color: #000;
 	position: relative;
-	right: 5%;
+	left: 5%;
 	top: 5%;
 	opacity: 0;
-	animation:ly-stxt06_move 15s;
-	animation-delay:3s;
-	-webkit-animation:ly-stxt06_move 15s;
-	-webkit-animation-delay:3s;
+	margin-top:-71px;
+	animation:ly-stxt06_move 16s;
+	animation-delay:4s;
+	-webkit-animation:ly-stxt06_move 16s;
+	-webkit-animation-delay:4s;
 }
 @keyframes ly-stxt06_move{
-	0% {opacity:0;}
-	40% {opacity:0;}
-	48% {opacity:1;}
-	90% {opacity:1;}
-	100% {opacity:0;}
+	0% {opacity:0;margin-top:-71px;}
+	32% {opacity:0;margin-top:-71px;}
+	40% {opacity:1;margin-top:0;}
+	90% {opacity:1;margin-top:0;}
+	100% {opacity:0;margin-top:0;}
 }
 @-webkit-keyframes ly-stxt06_move{
-	0% {opacity:0;}
-	40% {opacity:0;}
-	48% {opacity:1;}
-	90% {opacity:1;}
-	100% {opacity:0;}
+	0% {opacity:0;margin-top:-71px;}
+	32% {opacity:0;margin-top:-71px;}
+	40% {opacity:1;margin-top:0;}
+	90% {opacity:1;margin-top:0;}
+	100% {opacity:0;margin-top:0;}
 }
 
 .ly-stxt07 {
@@ -662,7 +663,7 @@
 
 /* 盒子 */
 .ly-box11 {
-	width: 30%;
+	width: 25%;
 	height: 600px;
 	border: 2px #CCC;
 	background-color: #fff;
@@ -752,7 +753,6 @@
 	text-indent:2em;
 	font-color: #000;
 	position: absolute;
-	padding-top: 20px;
 	left: 5%;
 	top: 12%;
 	opacity: 0;
@@ -766,14 +766,14 @@
 
 /* 盒子 */
 .ly-box12 {
-	width: 40%;
+	width: 25%;
 	height: 600px;
 	border: 2px #CCC;
 	background-color: #fff;
 	background-color: rgba(255,255,255,0.6);
 	border-radius: 8px;
 	position: absolute;
-	left: 57%;
+	left: 52%;
 	top:10%;
 	overflow: hidden;
 	opacity: 0;
@@ -797,7 +797,7 @@
 	border-radius: 2px; 
 	margin-left: 24px;
 	position: absolute;
-	right: 43%;
+	right: 48%;
 	top: 14%;
 	opacity: 0;
 	-webkit-transform: scale(0.5, 0.5);
@@ -1084,7 +1084,7 @@
 
 /* 盒子 */
 .ly-box23 {
-	width: 34%;
+	width: 20%;
 	height: 0;
 	border: 2px #CCC;
 	background-color: #fff;
@@ -1098,7 +1098,7 @@
 	transition: all 10s;
 }
 .active .ly-box23{
-	height:600px;
+	height:400px;
 	transition-delay: 8s;
 }
 /*小三角*/
@@ -1112,7 +1112,7 @@
 	margin-left: 24px;
 	position: absolute;
 	right: 39%;
-	top: 66%;
+	top: 40%;
 	opacity: 0;
 	-webkit-transform: scale(0.5, 0.5);
 	transform: scale(0.5, 0.5);
@@ -1123,7 +1123,7 @@
 	margin-left: 2px;
 	-webkit-transform: scale(1, 1);
 	transform: scale(1, 1);
-	transition-delay: 12s;
+	transition-delay: 16s;
 }
 /*文本*/
 .ly-txt25 {
@@ -1175,7 +1175,7 @@
 }
 .active .ly-imgbox23{
 	opacity:1;
-	transition-delay:12s;
+	transition-delay:17s;
 }
 .ly-img23{
 	position: absolute;
@@ -1847,7 +1847,7 @@
 }
 
 .ly-box82 {
-	width: 54%;
+	width: 37%;
 	height: 600px;
 	border: 2px #CCC;
 	background-color: #fff;
